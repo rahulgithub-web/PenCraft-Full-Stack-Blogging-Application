@@ -1,6 +1,66 @@
+<div align="center">
+
 # PenCraft
 
-This project aims to create a blogging platform using modern technologies for both frontend and backend. It utilizes a robust stack including React for the frontend, Cloudflare Workers for the backend, and a combination of other tools for validation, ORM, database, and authentication.
+<i>A modern, full-stack blogging platform powered by React and Cloudflare Workers</i>
+
+</div>
+
+<table align="center">
+  <thead align="center">
+    <tr>
+      <td><b>🌟 Stars</b></td>
+      <td><b>🍴 Forks</b></td>
+      <td><b>🐞 Issues</b></td>
+      <td><b>🔓 Open PRs</b></td>
+      <td><b>🔒 Closed PRs</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application?style=flat&logo=github"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application?style=flat&logo=github"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application?style=flat&logo=github"/></td>
+      <td><img alt="Open PRs" src="https://img.shields.io/github/issues-pr/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application?style=flat&logo=github"/></td>
+      <td><img alt="Closed PRs" src="https://img.shields.io/github/issues-pr-closed/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application?style=flat&logo=github"/></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## 🚀 Project Overview
+
+PenCraft is a full-stack blogging platform designed to offer users a seamless experience for creating and managing blog content. With a frontend built using React and a serverless backend powered by Cloudflare Workers, PenCraft is fast, scalable, and secure.
+
+---
+
+## ⚙️ Tech Stack
+
+<div align="center">
+
+[![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-2D3748.svg?style=for-the-badge&logo=Prisma&logoColor=white)](https://prisma.io/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=Node.js&logoColor=white)](https://nodejs.org/)
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020.svg?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://www.cloudflare.com/products/cloudflare-workers/)
+[![PostgresSQL](https://img.shields.io/badge/PostgresSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://www.postgresql.org/)
+
+</div>
+
+---
+
+## ✨ Features
+
+- **Bookmarking:** Save your favorite posts for easy access.
+- **Search:** Find posts by keywords or tags.
+- **Authentication:** Secure JWT-based authentication with cookies for session management.
+- **Rich Text Editor:** Use Jodit for rich content creation.
+- **Image Uploads:** Add images to blog posts (coming soon).
+- **Responsive UI:** Built with Tailwind CSS for a sleek, responsive design.
+
+---
 
 ## Technologies Used
 
@@ -39,14 +99,14 @@ This project aims to create a blogging platform using modern technologies for bo
 5. Run `npm run dev` to start the backend server.
 6. Access the backend server at `http://localhost:8080`.
 
-## Authentication (Cookies Approach)
+## 🔐 Authentication Flow
 
-For authentication, this project utilizes JSON Web Tokens (JWT) along with a cookies-based approach.
+PenCraft uses JWT-based authentication:
 
-1. Upon successful login, a JWT token is generated server-side and sent to the client.
-2. The JWT token is then stored in an HTTP-only cookie for enhanced security.
-3. Subsequent requests from the client include this token in the cookie header.
-4. The server validates the JWT token to authenticate the user for protected routes.
+1. After login, the server issues a JWT.
+2. The JWT is stored in an HTTP-only cookie.
+3. On subsequent requests, the JWT is sent in the cookie header.
+4. The backend validates the token for access to protected routes.
 
 ## Additional Functionalities
 
@@ -72,13 +132,20 @@ Working on to supports image uploads, allowing users to enhance their blog posts
 
 Added jodit editor .
 
-## ❤️Our Valuable Contributors
-[![Contributors](https://contrib.rocks/image?repo=AkshitLakhera/PenCraft-Full-Stack-Blogging-Application)](https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/graphs/contributors)
+## License
 
-<!-- - [Other Contributors] -->
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Feel free to contribute by forking and submitting pull requests!
+<div align="center">
+  <h2 style="font-size:3rem;">Our Contributors <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" alt="Red Heart" width="40" height="40" /></h2>
+  <h3>Thank you for contributing to our repository</h3>
+<a href="https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=AkshitLakhera/PenCraft-Full-Stack-Blogging-Application"/>
+</a>
+<p style="font-family:var(--ff-philosopher);font-size:3rem;"><b> Show some <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" alt="Red Heart" width="40" height="40" /> by starring this awesome repository!
+</div>
 
-<!-- For detailed documentation and contribution guidelines, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file. -->
-
-Happy coding! 🚀
+<center>
+<h3 style="font-size:2rem;">
+If you find this project helpful, please consider giving it a star! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/tarikul-islam-anik/main/assets/images/Star.png" width="30" height="30"></p>
+</center>
